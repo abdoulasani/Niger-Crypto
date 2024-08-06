@@ -39,54 +39,108 @@
     <!-- Spinner End -->
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-1.png" alt="" style="width: 45px;">Niger Crypto</h2>
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
+   <!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+    <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-1.png" alt="" style="width: 45px;">Niger Crypto</h2>
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-4 py-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="service.html" class="nav-item nav-link">Service</a>
+            <a href="roadmap.html" class="nav-item nav-link">Roadmap</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                <div class="dropdown-menu shadow-sm m-0">
+                    <a href="feature.html" class="dropdown-item">Feature</a>
+                    <a href="token.html" class="dropdown-item">Token Sale</a>
+                    <a href="faq.html" class="dropdown-item">FAQs</a>
+                    <a href="404.html" class="dropdown-item">404 Page</a>
+                </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+        <div class="h-100 d-lg-inline-flex align-items-center d-none">
+            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Categories Button Start -->
+<div class="container-fluid bg-light py-3">
+    <div class="container text-center">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="categoriesButton" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-4 py-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="roadmap.html" class="nav-item nav-link">Roadmap</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu shadow-sm m-0">
-                        <a href="feature.html" class="dropdown-item">Feature</a>
-                        <a href="token.html" class="dropdown-item">Token Sale</a>
-                        <a href="faq.html" class="dropdown-item">FAQs</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-            <div class="h-100 d-lg-inline-flex align-items-center d-none">
-                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-linkedin-in"></i></a>
-            </div>
-    </nav>
-    <!-- Navbar End -->
-    <!-- Header Start -->
-    <div class="container-fluid hero-header bg-light py-5 mb-5">
-        <div class="container py-5">
-            <div class="row g-5 align-items-center justify-content-center">
-                <div class="col-lg-6 text-center">
-                    <h2 class="display-4 mb-4 animated slideInDown">La première plateforme de vente et achat de crypto au Niger</h2>
-                    <p class="mb-4 animated slideInDown">Bienvenue sur Niger Crypto, votre porte d'accès au monde des cryptomonnaies et de l'éducation technologique numérique au Niger. Notre mission est de démocratiser le trading de cryptomonnaies et de rendre l'éducation technologique accessible à tous.</p>
-                    <a href="#" class="btn btn-primary py-3 px-4 animated slideInDown">Explore More</a>
-                </div>
-                <div class="col-lg-6 text-center animated fadeIn">
-                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-1.png" alt="">
+        <ul class="dropdown-menu" aria-labelledby="categoriesButton">
+            <li><a class="dropdown-item" href="service1.html">Service 1</a></li>
+            <li><a class="dropdown-item" href="service2.html">Service 2</a></li>
+            <li><a class="dropdown-item" href="service3.html">Service 3</a></li>
+            <li><a class="dropdown-item" href="service4.html">Service 4</a></li>
+        </ul>
+    </div>
+</div>
+<!-- Categories Button End -->
+
+ <!-- Carousel Start -->
+ <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="height: 410px;">
+            <img class="img-fluid" src="img/3.jpg" alt="Image">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3" style="max-width: 700px;">
+                    <h4 class="text-light text-uppercase font-weight-medium mb-3"></h4>
+                    <h2 class="display-4 text-white font-weight-semi-bold mb-4"></h2>
+                    <a href="" class="btn btn-light py-2 px-3">Démarrer</a>
                 </div>
             </div>
         </div>
-    </div>    
-    <!-- Header End -->
+        <div class="carousel-item" style="height: 410px;">
+            <img class="img-fluid" src="img/1.jpg" alt="Image">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3" style="max-width: 700px;">
+                    <h4 class="text-light text-uppercase font-weight-medium mb-3"></h4>
+                    <h3 class="display-4 text-white font-weight-semi-bold mb-4"></h3>
+                    <a href="" class="btn btn-light py-2 px-3">Démarrer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#header-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#header-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+<!-- Carousel End -->
+
+<!-- Header Start -->
+<div class="container-fluid hero-header bg-light py-5 mb-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center justify-content-center">
+            <div class="col-lg-6 text-center">
+                <h2 class="display-4 mb-4 animated slideInDown">La première plateforme de vente et achat de crypto au Niger</h2>
+                <p class="mb-4 animated slideInDown">Bienvenue sur Niger Crypto, votre porte d'accès au monde des cryptomonnaies et de l'éducation technologique numérique au Niger. Notre mission est de démocratiser le trading de cryptomonnaies et de rendre l'éducation technologique accessible à tous.</p>
+                <a href="#" class="btn btn-primary py-3 px-4 animated slideInDown">Explore More</a>
+            </div>
+            <div class="col-lg-6 text-center animated fadeIn">
+                <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-1.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>    
+<!-- Header End -->
+
  <!-- Roadmap Start -->
  <div class="container-xxl py-5">
     <div class="container">
